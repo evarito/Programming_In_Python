@@ -5,5 +5,6 @@ dict_b = {'School': "WoodCreek", 'Staff_No': 154889}
 dict_c = {'Department': "ICT", 'Supervisor': None}
 dict_d = {}
 
-for d in (dict_a,dict_b,dict_c): dict_d.update(d)
+for d in (dict_a,dict_b,dict_c):
+  dict_d.update(d)
 print(dict_d)
